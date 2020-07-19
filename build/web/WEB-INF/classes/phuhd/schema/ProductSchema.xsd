@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="www.PhuHDShop.Product.com"
+           xmlns="www.PhuHDShop.Product.com"
+           xmlns:target="www.PhuHDShop.ProductDetail.com"
+           xmlns:target1="www.PhuHDShop.ProductMark.com"
+           elementFormDefault="qualified">
+    <xs:import namespace="www.PhuHDShop.ProductDetail.com" schemaLocation="ProductDetailSchema.xsd"/>
+    <xs:import namespace="www.PhuHDShop.ProductMark.com" schemaLocation="ProductMarkSchema.xsd"/>
+    
+    <!-- Declare Brach -->
+    <xs:simpleType name="Branch">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Intel"/>
+            <xs:enumeration value="AMD"/>            
+        </xs:restriction>
+    </xs:simpleType>
+    <!-- Declare Pattern -->
+    <xs:simpleType name="Type">
+        <xs:restriction base="xs:string">
+            <xs:enumeration value="Celeron"/>
+            <xs:enumeration value="Pentium"/>            
+            <xs:enumeration value="Core i3"/>            
+            <xs:enumeration value="Core i5"/>            
+            <xs:enumeration value="Core i7"/>            
+            <xs:enumeration value="Core i9"/>            
+            <xs:enumeration value="Xeon"/>            
+            <xs:enumeration value="Athlon"/>            
+            <xs:enumeration value="Ryzen 3"/>            
+            <xs:enumeration value="Ryzen 5"/>            
+            <xs:enumeration value="Ryzen 7"/>            
+            <xs:enumeration value="Ryzen 9"/>            
+            <xs:enumeration value="Ryzen Threadripper"/>            
+            <xs:enumeration value="EPYC"/>            
+        </xs:restriction>
+    </xs:simpleType>
+    
+    <xs:element name="Product">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Branch" type="Branch"/>              
+                <xs:element name="Type" type="Type"/>              
+                <xs:element name="Price" type="xs:long"/>
+                <xs:element name="Name" type="xs:string"/>
+                <xs:element name="DateCreated" type="xs:string"/>
+                <xs:element name="Img" type="xs:string" minOccurs="1"/>                
+                <xs:element ref="target:ProductDetail" maxOccurs="1" />                
+                <xs:element ref="target1:ProductMark" maxOccurs="1" />                
+            </xs:sequence>
+            <xs:attribute name="ProductID" type="xs:int" use="required" />
+            <xs:attribute name="ProductDetailID" type="xs:int" use="required" />
+            <xs:attribute name="ProductMarkID" type="xs:int" use="required" />
+            <xs:attribute name="IsDelete" type="xs:boolean" use="optional" />
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

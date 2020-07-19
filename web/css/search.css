@@ -1,0 +1,73 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 18, 2020, 3:16:38 PM
+    Author     : Duy Phu
+*/
+.filter {
+    width: 98%;
+    height: 300px;
+    margin: 1%;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+}
+.selectChoose {
+    width: 40%;   
+    background-color: aliceblue;
+    float: left;
+    margin: 2%;
+}
+.selectChoose p {
+    color: black;
+    font-size: 20px;    
+    float: left;
+    width: 40%;
+}
+.selectChoose select{
+    float: left;
+    width: 40%;
+    font-size: 15px;
+}
+.filter input{
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+}
+
+
+.resultFilter {
+    width: 98%;
+    background-color: #FFF;
+    float: left;
+    position: relative;
+}
+#tableProduct {
+    width: 90%;
+    margin: 5%;
+    border: none;
+}
+#tableProduct td, #tableProduct th{
+    border: 1px solid #ddd;
+    padding: 8px;
+    color: black;
+    font-size: 18px;
+    text-align: center;
+}
+#tableProduct th{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: #4CAF50;
+    color: black;
+    font-size: 20px;
+    text-align: center;
+}#tableProduct td img {
+    width: 60px;
+    height: 40px;
+}
+
+

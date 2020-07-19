@@ -1,0 +1,120 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 15, 2020, 7:50:22 PM
+    Author     : Duy Phu
+*/
+/* center container in the middle */
+.images{
+    float: left;
+    width: 40%;
+    height: 400px;
+    margin: 2%;
+    border: 5px solid gray;
+    margin-top : 3.5%;
+}
+.images img{
+    width: 100%;
+    height: 100%;
+}
+.product {
+    float: right;
+    width: 50%;
+    height: 450px;
+    margin: 2%;
+    border: 5px solid gray;
+
+}
+.name{
+    width: 90%;
+    height: 100px;
+    padding: 5%;
+    background-color: #bbb;
+       
+}
+.name h1{
+    width: 100%;
+    
+    color: black;
+}
+.description{
+    width: 90%;
+    padding: 5%;
+    float: left;
+    height: 80px;
+        
+}
+.description p{
+    float: left;
+    color: black;
+    
+}
+.price{
+    width: 100%;
+    height: 50px;
+    color: red;
+    background-color: #bbb;
+    float: left;
+    text-align: center;
+}
+.buttons{
+    width: 100%;
+    height: 100px;
+    float: left;
+}
+.buttons input{
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+    margin: 15px;
+    font-weight: bold;
+    width: 120px;
+    height: 70px;
+}
+/* Table */
+#details {
+    width: 90%;
+    margin: 5%;
+    border: 1px solid blue;
+}
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  font-size: 20px;
+}
+#details td{
+    text-align:center;
+}
+
+#details tr:nth-child(even){background-color: #bbb;}
+
+#details tr:hover {background-color: #4CAF50;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: black;
+  font-size: 30px;
+}
+.mark h1{
+    color: blue ;
+    margin-left:10%;
+    margin-bottom:5%;
+    margin-top:1%;
+    width: 40%; 
+    float: left;
+}
+.mark p {
+    margin-left: 3%; 
+    width: 40%; 
+    color: red; 
+    float: left;
+    font-size: 60px;
+    font-weight: bold;
+}

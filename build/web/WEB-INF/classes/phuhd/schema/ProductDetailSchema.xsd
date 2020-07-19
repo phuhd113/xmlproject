@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xs:schema version="1.0"
+           xmlns:xs="http://www.w3.org/2001/XMLSchema"
+           targetNamespace="www.PhuHDShop.ProductDetail.com"
+           xmlns="www.PhuHDShop.ProductDetail.com"
+           elementFormDefault="qualified">
+
+     <xs:element name="ProductDetail">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="Core" type="xs:string"/>
+                <xs:element name="Thread" type="xs:string"/>               
+                <xs:element name="Frequency" type="xs:string"/>
+                <xs:element name="Turbo" type="xs:string"/>
+                <xs:element name="MemoryType" type="xs:string"/>
+                <xs:element name="MemoryMax" type="xs:string"/>
+                <xs:element name="Socket" type="xs:string"/>
+                <xs:element name="Overclocking" type="xs:boolean"/>       
+                <xs:element name="CoreBenchMark" type="xs:long"/>       
+            </xs:sequence>
+            <xs:attribute name="ProductDetailID" type="xs:int" use="required" />            
+        </xs:complexType>
+    </xs:element>
+</xs:schema>

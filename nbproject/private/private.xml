@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/web/search.jsp</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/web/homePage.jsp</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/entity/TblProductDetail.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/servlet/ChooseProductServlet.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/dao/ProductDAO.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/dao/ProductDetailDAO.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/servlet/SelectedProductServlet.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/entity/TblProduct.java</file>
+            <file>file:/F:/CN8/XML/Project/PhuHDShop/src/java/phuhd/servlet/FilterProductServlet.java</file>
+        </group>
+    </open-files>
+</project-private>

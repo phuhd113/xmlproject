@@ -1,0 +1,42 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 17, 2020, 7:04:23 PM
+    Author     : Duy Phu
+*/
+/* Table */
+.compare h1{
+    color: crimson;
+    margin-left: 350px;
+    font-size: 60px;
+}
+#details {
+    width: 90%;
+    margin: 5%;
+    border: 1px solid blue;
+}
+#details td, #details th {
+  border: 1px solid #ddd;
+  padding: 8px;
+  color: black;
+  font-size: 20px;
+  text-align: center;
+}
+
+
+#details tr:nth-child(even){background-color: #bbb;}
+
+#details tr:hover {background-color: #4CAF50;}
+
+#details th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: left;
+  background-color: #4CAF50;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+}

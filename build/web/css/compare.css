@@ -1,0 +1,45 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jul 12, 2020, 2:21:39 PM
+    Author     : Duy Phu
+*/
+.product{
+    float: left;
+    width: 45%;
+    height: 500px;
+    margin: 1.5%;
+    float: left;
+    position: relative;
+}
+
+.product_search{
+    float: left;
+    width: 100%;
+    height: 450px;
+    background-color: white;
+    float: left;
+}
+.product input{
+    width: 150px;
+    background-color: #4CAF50;
+    color: white;
+    font-size: 15px;
+    border-color: blue;
+    float: left;
+    margin-left: 35%;
+    
+}
+#compare{
+    position: absolute;
+    top: 250px;
+    left: 520px;
+    width: 120px;
+    background-color:azure; 
+    font-size: 20px;
+    font-weight: bold;
+}
+
